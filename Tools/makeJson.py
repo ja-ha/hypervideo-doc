@@ -67,6 +67,15 @@ for edge in soup.findAll("edge"):
         print("Error on edge {}".format(edge["id"]))
         break
 
+print("Verifying nodes and edges...")
+for name, node in graph.items():
+    try:
+        assert node["def"]
+        assert node["alt"]
+    except KeyError:
+        print("Node '{}' is missing an edge!".format(name))
+        exit(1)
+
 # convert dict to json
 graph_json = json.dumps(graph, indent=2)
 
