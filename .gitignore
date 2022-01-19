@@ -74,8 +74,5 @@ crashlytics-build.properties
 # IDE
 .idea/
 
-# Streaming Assets
-/[Aa]ssets/[Ss]treamingAssets/
-
 # images used by tools
 Tools/imgs

@@ -1,0 +1,30 @@
+{
+  "ENTRYPOINT": {
+    "def": "clip0",
+    "alt": "clip0"
+  },
+  "clip0": {
+    "def": "clip1",
+    "alt": "clip10"
+  },
+  "clip1": {
+    "def": "clip2",
+    "alt": "clip11"
+  },
+  "clip2": {
+    "def": "clip0",
+    "alt": "clip12"
+  },
+  "clip10": {
+    "def": "clip11",
+    "alt": "clip0"
+  },
+  "clip11": {
+    "def": "clip12",
+    "alt": "clip1"
+  },
+  "clip12": {
+    "def": "clip10",
+    "alt": "clip2"
+  }
+}
