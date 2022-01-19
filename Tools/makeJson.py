@@ -77,7 +77,7 @@ for name, node in graph.items():
         exit(1)
 
 # convert dict to json
-graph_json = json.dumps(graph, indent=2)
+graph_json = json.dumps(graph, indent=2, sort_keys=True)
 
 # save plaintext json
 with args.output as file:
