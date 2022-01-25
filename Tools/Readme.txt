@@ -1,4 +1,4 @@
-This folder contains two python scripts to help build the videoMap.json for "Hypervideo Doc".
+This folder contains two python 3 scripts to help build the videoMap.json for "Hypervideo Doc".
 Required python packages are listed in requirements.txt.
 
 ------------------------------
